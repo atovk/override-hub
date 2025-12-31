@@ -4,7 +4,6 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - AI-UNHK
       - 台湾节点
       - 狮城节点
       - 日本节点
@@ -142,11 +141,11 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 美国节点
-      - 香港节点
       - 台湾节点
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 香港节点
       - 手动切换
   - name: 微软Bing
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
