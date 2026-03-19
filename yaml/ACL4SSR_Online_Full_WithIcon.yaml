@@ -36,21 +36,6 @@ proxy-groups:
       - 香港节点
       - 手动切换
       - DIRECT
-  - name: OpenAi
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选择
-      - AI-UNHK
-      - 狮城节点
-      - 台湾节点
-      - 日本节点
-      - 美国节点
-      - 韩国节点
-      - 香港节点
-      - 手动切换
-      - DIRECT
   - name: AI-UNHK
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
     type: select
@@ -310,7 +295,6 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 电报消息
-      - OpenAi
       - AI-UNHK
       - 油管视频
       - 奈飞视频
@@ -570,7 +554,7 @@ rules:
   - "RULE-SET,Microsoft,微软服务"
   - "RULE-SET,Apple,苹果服务"
   - "RULE-SET,Telegram,电报消息"
-  - "RULE-SET,OpenAi,OpenAi"
+  - "RULE-SET,OpenAi,AI-UNHK"
   - "RULE-SET,NetEaseMusic,网易音乐"
   - "RULE-SET,Epic,游戏平台"
   - "RULE-SET,Origin,游戏平台"
@@ -588,5 +572,8 @@ rules:
   - "RULE-SET,ChinaDomain,全球直连"
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
+  - "DOMAIN-SUFFIX,vircs.com,AI-UNHK"
+  - "DOMAIN-SUFFIX,virvm.com,AI-UNHK"
+  - "IP-CIDR,107.215.140.73/32,AI-UNHK,no-resolve"
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
